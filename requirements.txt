@@ -1,0 +1,7 @@
+# image.py and audio.py need nothing beyond the Python standard library (3.9+).
+# These are for cutout.py, sound.py and the audio reports:
+pillow>=10
+numpy>=1.24
+soundfile>=0.12
+scipy>=1.10      # cutout.py --key flood
+librosa>=0.10    # optional: tempo in `sound.py analyze`

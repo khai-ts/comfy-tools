@@ -1,0 +1,6 @@
+# generated files
+out/
+# local API key (never commit it)
+.env
+__pycache__/
+.venv/
