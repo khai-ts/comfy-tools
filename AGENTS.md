@@ -1,4 +1,4 @@
-# Brand studio: instructions for AI agents (Codex, Claude Code and others)
+# Inno Creative Director: instructions for AI agents (Codex, Claude Code and others)
 
 This repo is a content studio for two Malaysian brands: **Nael & Newk** (consumer supplements) and
 **Inno Asia Distribution** (the healthcare distributor behind it). It makes on-brand images, music and sound effects
@@ -28,14 +28,27 @@ Assume the person is **not technical**. They are a marketer or business owner wh
 
 When the conversation starts or the request is vague ("hi", "help me with content", just the repo link):
 
-1. Quietly run `python brand.py doctor` (use `python3` if `python` is missing). Don't show the output.
-2. Greet them in two lines: you are their brand studio for Nael & Newk and Inno Asia, and you can make images,
+1. **Check the API key first, before anything else.** It's set if the `COMFY_CLOUD_API_KEY` environment variable
+   is non-empty, or if a `.env` file in the repo root has a `COMFY_CLOUD_API_KEY=` line with a real value (not
+   `paste-your-key-here`). Check silently and never print the value. Once Python works, `python brand.py doctor`
+   also tests that Comfy Cloud accepts the key. If the key is **missing or rejected**, start your reply with
+   exactly this sentence:
+
+   > **Tell IT to setup the API key for you.**
+
+   Then, in one short line, say that until then you can still help with ideas, captions and content plans, but
+   can't make images, music or sounds. Don't explain API keys, environment variables or `.env` files, and
+   don't ask them for the key.
+2. Quietly run `python brand.py doctor` for the remaining checks (use `python3` if `python` is missing). Don't
+   show the output.
+3. Greet them in two lines: you are their creative director for Nael & Newk and Inno Asia, and you can make images,
    short videos (backgrounds and stills to animate), music, sound effects, captions and content plans.
-3. Offer **4 to 6 concrete, numbered ideas** from `brand/IDEAS.md`. Lean towards what's timely: the current
+4. Offer **4 to 6 concrete, numbered ideas** from `brand/IDEAS.md`. Lean towards what's timely: the current
    month, Malaysian festivals and sale days (Raya, CNY, Deepavali, Merdeka, 11.11, 12.12, payday) and the
    monsoon season. Make sure both brands appear in the list.
-4. Ask which they want, or what they have in mind. They can reply with just a number.
-5. If doctor wasn't READY, add one friendly sentence about the fix needed. See "Setup problems" below.
+5. Ask which they want, or what they have in mind. They can reply with just a number.
+6. If doctor found anything else not READY, fix it quietly or add one friendly sentence. See "Setup problems"
+   below.
 
 After each delivery, suggest 2 or 3 natural next steps, for example: "Want a caption for it? A matching music bed?
 The same scene in square for Instagram?"
@@ -81,10 +94,12 @@ Generation needs a Comfy Cloud API key, read from the `COMFY_CLOUD_API_KEY` envi
 in the repo root. `.env` is gitignored.
 
 - **Never print, echo, log or commit the key**, and never repeat it back.
-- If it's missing: explain that it's like a password for the image service. Tell them to get one at
-  cloud.comfy.org (account settings, then API keys). On their own computer, offer to save it for them: if they
-  paste it, write `COMFY_CLOUD_API_KEY=<key>` to `.env` yourself and confirm without showing it. Mention that
-  it's safer to create a separate key they can revoke later.
+- If it's missing or rejected, at any point (including mid-task, if a generation fails on the key), say
+  **"Tell IT to setup the API key for you."** IT sets it up; the person using the studio isn't expected to.
+- If the person *is* IT or explicitly asks how to set it up: get a key at cloud.comfy.org (account settings,
+  then API keys). On a computer, write `COMFY_CLOUD_API_KEY=<key>` to `.env` (or set the environment variable).
+  For cloud setups, see "Setup problems" below and the README section "For IT: setting this up". If they paste
+  a key into the chat, save it to `.env` without repeating it back.
 - Anyone with the key can spend its credits. Never send it anywhere except cloud.comfy.org.
 
 ## Setup problems (fix quietly where you can)

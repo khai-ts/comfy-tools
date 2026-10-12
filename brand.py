@@ -68,6 +68,14 @@ def show():
 def doctor():
     """Checks everything generation needs and explains problems in plain words. Never prints the key."""
     problems = []
+    try:
+        key = api_key()
+    except SystemExit:
+        key = ""
+    has_key = bool(key) and key != "paste-your-key-here"
+    print(f"{'OK ' if has_key else 'FIX'} Comfy Cloud key {'found' if has_key else 'not set'}")
+    if not has_key:
+        problems.append("No Comfy Cloud API key. Tell IT to setup the API key for you.")
     ok = sys.version_info >= (3, 9)
     print(f"{'OK ' if ok else 'FIX'} Python {sys.version.split()[0]}")
     if not ok:
@@ -76,15 +84,6 @@ def doctor():
     print(f"{'FIX' if missing else 'OK '} helper packages{': missing ' + ', '.join(missing) if missing else ''}")
     if missing:
         problems.append(f"Install packages: {sys.executable} -m pip install -r requirements.txt")
-    try:
-        key = api_key()
-    except SystemExit:
-        key = ""
-    has_key = bool(key) and key != "paste-your-key-here"
-    print(f"{'OK ' if has_key else 'FIX'} Comfy Cloud key {'found' if has_key else 'not set'}")
-    if not has_key:
-        problems.append("No Comfy Cloud API key: get one at cloud.comfy.org (account settings, API keys) and save "
-                        "it as COMFY_CLOUD_API_KEY in a .env file in this folder.")
     # an authenticated, free call: proves the network path and (with a key) that the key works
     headers = {"User-Agent": "comfy-tools"}
     if has_key:
@@ -103,7 +102,7 @@ def doctor():
                         "access; Claude cloud: Network access), or run on your own computer.")
     elif has_key and not key_ok:
         print("FIX Comfy Cloud rejected the key")
-        problems.append("The API key was rejected: create a new one at cloud.comfy.org and replace it in .env.")
+        problems.append("The API key was rejected. Tell IT to setup the API key for you.")
     for x in problems:
         print("  - " + x)
     print("READY" if not problems else "NOT READY")

@@ -1,4 +1,4 @@
-# Brand studio (Inno Asia / Nael & Newk)
+# Inno Creative Director (Inno Asia / Nael & Newk)
 
 The instructions for every agent are in AGENTS.md, which Codex also reads. Follow it: it covers who you are talking to
 (a non-technical person, so hide the commands and use plain words), the first reply with suggestions, brand rules,
