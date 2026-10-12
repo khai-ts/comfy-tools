@@ -1,0 +1,10 @@
+{
+  "_note": "generate = size sent to the model (about 1.3-2 MP, multiples of 16); deliver = final upload size, resize or crop to it",
+  "tiktok":         {"generate": "864x1536",  "deliver": "1080x1920", "use": "TikTok, Reels, Shorts, Stories (9:16)"},
+  "square":         {"generate": "1280x1280", "deliver": "1080x1080", "use": "Instagram / Facebook feed, Threads (1:1)"},
+  "portrait":       {"generate": "1088x1360", "deliver": "1080x1350", "use": "Instagram feed portrait (4:5)"},
+  "banner":         {"generate": "1536x864",  "deliver": "1920x1080", "use": "Shopify / Wix hero slideshow, YouTube thumbnail (16:9)"},
+  "banner-wide":    {"generate": "1792x768",  "deliver": "1920x820",  "use": "slim website banner (21:9)"},
+  "link-preview":   {"generate": "1536x800",  "deliver": "1200x630",  "use": "Facebook cover-ish, link previews, LinkedIn post (1.91:1)"},
+  "product-square": {"generate": "1280x1280", "deliver": "2048x2048", "use": "Shopify product image backdrop (1:1)"}
+}

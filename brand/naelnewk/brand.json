@@ -1,0 +1,43 @@
+{
+  "name": "Nael & Newk",
+  "wordmark": "nael & newk",
+  "owner": "Inno Asia Distribution Sdn Bhd",
+  "tagline": "Gentle on the stomach, Easy on your routine",
+  "slogans": ["Simple Wellness. Thoughtfully Considered.", "Wellness doesn't need to be complicated."],
+  "palette": {
+    "cocoa": {"hex": "#5A4848", "use": "primary text, buttons, borders (website foreground)"},
+    "cocoa-hover": {"hex": "#685353", "use": "button hover, selected states"},
+    "leaf-green": {"hex": "#62AE30", "use": "logo leaves only; small accents, never large fills"},
+    "ink": {"hex": "#1A1A1A", "use": "logo wordmark"},
+    "linen": {"hex": "#F5EEDE", "use": "warm cream backgrounds"},
+    "sand": {"hex": "#E8DFC8", "use": "secondary warm backgrounds, cards"},
+    "oat": {"hex": "#C8B197", "use": "photographic warm mid-tone (wood, linen, sunlight)"},
+    "paper": {"hex": "#FDFCFA", "use": "off-white page background"},
+    "navy": {"hex": "#141F30", "use": "packaging: Vitamin D3+K2 and Magnesium + Zinc boxes"},
+    "gold": {"hex": "#A78848", "use": "packaging accent, premium highlights"}
+  },
+  "fonts": {"web": "Inter (400 body, 700 accent)", "logo": "rounded geometric sans, lowercase"},
+  "image": {
+    "style": "soft natural morning sunlight, warm neutral palette of cream, linen, oat and light wood, gentle shadows, airy minimal Scandinavian-Japanese interior, a few green plant leaves, calm and uncluttered, editorial lifestyle photography, shallow depth of field, photorealistic",
+    "negative": "text, letters, logo, watermark, label, packaging, pill bottle, clutter, neon, saturated colours, harsh flash, dark moody lighting, cartoon, plastic skin, extra fingers, deformed hands",
+    "scenes": {
+      "lifestyle": "relaxed Malaysian adult in a calm everyday moment at home, natural candid pose, soft linen clothing",
+      "still-life": "still life on a pale stone or light wood table, glass of water, ceramic bowl, small plant sprig, morning light through sheer curtains",
+      "product-backdrop": "empty pale stone tabletop in the foreground with clear space in the centre for a product, softly blurred warm interior behind, sunlight patches",
+      "routine": "daily routine moment: morning stretch, evening wind-down, post-workout cool-down or sleep preparation",
+      "texture": "close-up soft texture background: linen fabric, oat-coloured paper or smooth river pebble, lots of negative space"
+    }
+  },
+  "music": {
+    "calm": {"tags": "soft acoustic lofi, warm felt piano, gentle nylon guitar, light brushed drums, airy pads, calm morning, uplifting but quiet", "bpm": 78, "key": "D major"},
+    "upbeat": {"tags": "bright feel-good acoustic pop, ukulele, hand claps, light percussion, warm bass, positive everyday energy", "bpm": 112, "key": "G major"},
+    "sleep": {"tags": "ambient sleep music, slow warm pads, soft piano notes, no drums, very calm, night", "bpm": 60, "key": "F major"}
+  },
+  "sfx": "soft, warm, natural, gentle, clean, organic",
+  "voice": [
+    "Calm, plain and honest. Short sentences. No hype, no exclamation-mark stacks.",
+    "Talk about routines and how it fits a day, not miracles.",
+    "Practical and transparent: dosage, form (bisglycinate, chelated), certifications.",
+    "Never make medical claims (cure, treat, prevent). Use 'support' language, as on the site."
+  ]
+}

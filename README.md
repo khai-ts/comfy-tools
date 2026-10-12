@@ -1,4 +1,8 @@
-# comfy-tools
+# comfy-tools: Inno Asia / Nael & Newk brand studio
+
+> This is a brand fork of comfy-tools for **Inno Asia Distribution** and **Nael & Newk**. Start with
+> [`brand/README.md`](brand/README.md) for the brand kits and `python brand.py` for on-brand images, music and sounds.
+> Everything below is the original comfy-tools documentation.
 
 Small command-line tools for generating **images, sound effects and music on [Comfy Cloud](https://cloud.comfy.org)**
 from a terminal, a script, or a Claude Code session, plus the post-processing that makes the results usable:

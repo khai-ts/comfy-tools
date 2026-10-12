@@ -1,0 +1,44 @@
+{
+  "name": "Inno Asia Distribution",
+  "legal_name": "Inno Asia Distribution Sdn Bhd (1169950-H)",
+  "tagline": "Driven by Science. Dedicated to Health.",
+  "sub_brands": ["Nael & Newk", "Collawell", "Phytosure"],
+  "palette": {
+    "berry": {"hex": "#940848", "use": "primary: logo, headings, key accents"},
+    "berry-dark": {"hex": "#6E0636", "use": "hover, dark accents (derived)"},
+    "berry-tint": {"hex": "#F6E7EE", "use": "light tinted panels (derived)"},
+    "clinical-white": {"hex": "#FFFFFF", "use": "main background"},
+    "ice": {"hex": "#E4E8EB", "use": "cool grey-blue photographic backgrounds"},
+    "glass-blue": {"hex": "#7FB6E6", "use": "glow and glass highlights in imagery"},
+    "charcoal": {"hex": "#2B2B2B", "use": "body text"}
+  },
+  "fonts": {"logo": "geometric sans, uppercase (similar to Lexend / Outfit)", "web": "clean geometric sans"},
+  "image": {
+    "style": "clean clinical aesthetic, bright white and cool ice-blue tones, frosted glass and soft blue glow highlights, high-key studio lighting, modern pharmaceutical research, premium 3D render quality, sharp focus, generous negative space",
+    "negative": "text, letters, logo, watermark, label, clutter, dirty, warm orange cast, dark gloomy lighting, cartoon, syringe, blood, plastic skin, extra fingers, deformed hands",
+    "scenes": {
+      "science": "rendered as translucent frosted glass on a white reflective surface, soft blue glow underneath",
+      "clinicians": "multi-ethnic Malaysian healthcare professionals in white coats, including a woman in a hijab, discussing data on a tablet, bright modern clinic",
+      "laboratory": "bright modern laboratory, glassware, microscope, softly blurred scientists in the background",
+      "abstract": "abstract background of soft white and ice-blue gradients with faint molecular line patterns, lots of empty space for text",
+      "partnership": "healthcare professional and business partner shaking hands in a bright modern hospital corridor"
+    }
+  },
+  "music": {
+    "corporate": {"tags": "modern corporate ambient, clean piano, soft synth pads, subtle pulsing electronic beat, hopeful, innovative, scientific", "bpm": 100, "key": "C major"},
+    "inspiring": {"tags": "inspiring cinematic corporate, building strings, piano ostinato, light percussion, optimistic", "bpm": 120, "key": "E major"}
+  },
+  "sfx": "clean, crisp, modern, digital, subtle, glassy",
+  "voice": [
+    "Professional, evidence-based, trustworthy. Written for healthcare professionals and partners.",
+    "Prefer 'clinically supported', 'research-driven', 'quality-assured' over consumer hype.",
+    "Precise and measured. No medical claims beyond what is registered."
+  ],
+  "contact": {
+    "email": "sales@innoasia.com.my",
+    "medical_enquiries": "medic@innoasia.com.my",
+    "phone": ["+60 16 260 1257", "+60 12 595 8595"],
+    "address": "No. 6, Jalan Eco Perindustrian 1/3A, Eco Perindustrian 5, 42300 Puncak Alam, Selangor, Malaysia",
+    "web": "https://www.innoasia.com.my/"
+  }
+}
