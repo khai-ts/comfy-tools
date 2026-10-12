@@ -1,6 +1,7 @@
 # Content ideas
 
-A starting bank for suggestions. Mix and adapt these to the season, what's trending and what the person asks for.
+A starting bank for suggestions, not a limit. Mix, adapt and go beyond it with your own fresh ideas, based on
+the season, what's trending and what the person asks for.
 Every idea follows the brand rules: no medical claims, no generated logos or packaging text, and English copy.
 
 ## Nael & Newk

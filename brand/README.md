@@ -8,6 +8,10 @@ has equal standing and its own kit:
 | [`naelnewk/`](naelnewk/BRAND.md) | Nael & Newk | warm, calm, sunlit home routines | TikTok, Instagram, Shopify, membership and promo campaigns |
 | [`innoasia/`](innoasia/BRAND.md) | Inno Asia Distribution | clean, clinical, white and ice-blue glass | B2B decks, healthcare professionals, corporate site, LinkedIn |
 
+> **Work in progress.** Much of this branding is still being developed. Use the kits as inspiration and a
+> sense of each brand's feel, not strict rules. Be creative and try new directions. The firm rules are only the
+> ones under "Rules that apply to both brands" below.
+
 Each kit contains:
 - `BRAND.md`: the guidelines (identity, logo, colours, imagery, voice, contacts).
 - `brand.json`: the same guidelines as data, which `brand.py` uses to style prompts.
@@ -42,7 +46,8 @@ Takes go to `out/brand/<brand>/` (scratch, gitignored). `python brand.py save <f
    composite the box (`cutout.py` can lift the box off its background), or use an image-edit model that takes
    the packshot as a reference (below).
 3. **No medical claims** in any caption, voiceover or on-image text. Use "support" wording.
-4. Keep the two looks apart. Nael & Newk is warm and homely. Inno Asia is cool and clinical.
+4. Keep the two brands recognisably distinct (today: Nael & Newk warm and homely, Inno Asia cool and clinical).
+   Within that, experiment.
 5. Show Malaysian people, multi-ethnic, including women in hijab where it fits.
 
 ## Beyond this repo's scripts: other Comfy Cloud models

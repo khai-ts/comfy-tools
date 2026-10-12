@@ -3,6 +3,10 @@
 Consumer supplement brand from Inno Asia Distribution Sdn Bhd. "Simple Wellness. Thoughtfully Considered."
 Machine-readable version (used by `brand.py`): [`brand.json`](brand.json).
 
+> **Still developing:** this kit records the brand as it is today. It's a guide to the feel, not a strict
+> rulebook. New ideas, moods and styles are welcome. Only the product facts, no medical claims and no
+> generated logos or packaging text are firm.
+
 Sources: [naelnewk.com](https://www.naelnewk.com/), [membership](https://www.naelnewk.com/pages/membership),
 [TikTok @naelnewkmy](https://www.tiktok.com/@naelnewkmy) (collected October 2026).
 

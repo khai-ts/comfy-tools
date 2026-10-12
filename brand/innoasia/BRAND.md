@@ -4,6 +4,10 @@ Healthcare-focused pharmaceutical and nutraceutical distributor. It supplies cli
 to clinics, hospitals and healthcare professionals, and is the company behind Nael & Newk, Collawell and
 Phytosure. Machine-readable version (used by `brand.py`): [`brand.json`](brand.json).
 
+> **Still developing:** this kit records the brand as it is today. It's a guide to the feel, not a strict
+> rulebook. New ideas, moods and styles are welcome. Only the product facts, no medical claims and no
+> generated logos or packaging text are firm.
+
 Source: [innoasia.com.my](https://www.innoasia.com.my/) (collected October 2026).
 
 ## Identity

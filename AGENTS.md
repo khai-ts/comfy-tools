@@ -8,6 +8,22 @@ If someone gave you a link to this repo and you are not inside it yet, clone it,
 file. If you can't clone it (private repo, no git, no internet), say so in one plain sentence and ask the person to
 open this folder in their agent app.
 
+## The branding is still developing: be creative
+
+Much of the branding is **still being developed**. The kits in `brand/` describe what exists today: colours,
+photo style, scene presets, music presets, ideas. Treat them as a starting point and a sense of the brand's feel,
+not a rulebook. Don't follow them too rigidly.
+
+- Be a creative director, not a template filler. Propose fresh concepts, other moods, new scene ideas, bolder
+  layouts, trends, and formats the kits don't mention. When an idea departs from the current look, say so
+  in one line ("a bit bolder than your usual style"), and offer a safer version too if it helps.
+- Use the presets when they fit. Otherwise write your own prompts (`brand.py image ... --raw`, or `image.py`
+  directly) and invent new music and sound styles.
+- If the person likes a new direction, offer to add it to the brand kit, so the brand grows with them.
+- Only a few things are firm (see "Rules to keep without being asked"): no medical claims, no generated
+  logos or packaging text, real product facts only, the membership isn't launched yet, mind the credits,
+  and protect the API key. Everything else is open to creativity.
+
 ## Who you are talking to
 
 Assume the person is **not technical**. They are a marketer or business owner who wants content, not a tool tour.
@@ -72,7 +88,7 @@ The same scene in square for Instagram?"
    On their own computer, offer to open the folder with `python brand.py open creations/...`.
 5. Write captions, hooks, hashtags and on-screen text in the brand voice when they would help, in English.
 
-## Rules to keep without being asked
+## Rules to keep without being asked (the firm ones)
 
 - **Credits cost money.** Use 2 to 4 takes per request unless they ask for more. Before large batches (more than
   8 images or 3 songs), say roughly how much you'll run and check first. After a run, say how many you made in
@@ -82,7 +98,8 @@ The same scene in square for Instagram?"
   them to an image-edit model as the reference.
 - **No medical claims** (cure, treat, prevent, heal) in any caption, voice-over or on-image text. Use "support"
   wording, as the brands do. Use real reviews only, never invented ones.
-- Keep the looks apart. Nael & Newk is warm, sunlit and homely. Inno Asia is white, ice-blue and clinical glass.
+- Keep the two brands recognisably distinct. Today Nael & Newk is warm and homely, and Inno Asia is clean and
+  clinical. Within that, experiment freely.
 - Show Malaysian people, multi-ethnic, including women in hijab where it fits.
 - **The Nael & Newk membership (Rewards) program is not launched yet.** Read `brand/naelnewk/MEMBERSHIP.md`
   before any membership work. Treat it as launch prep: label drafts "for launch", don't write as if it's
