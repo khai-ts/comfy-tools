@@ -8,7 +8,7 @@ can change in the admin site. **Confirm the numbers with the team before anythin
 
 ## How it works (in customer words)
 
-- **Join free** on the Rewards page (`naelnewk.com/pages/rewards`) by adding your mobile number. Only members
+- **Join free** on the membership page (currently linked as naelnewk.com/pages/membership; confirm the final URL) by adding your mobile number. Only members
   earn and redeem points, and only orders paid after joining count.
 - **Welcome gift: 300 points** when you join.
 - **Earn 1 point for every RM1** spent on products, after discounts and excluding shipping and tax. Points are
