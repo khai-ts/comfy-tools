@@ -7,6 +7,6 @@ if [ "$CLAUDE_CODE_REMOTE" = "true" ]; then
     || echo "comfy-tools: pip install failed (is PyPI allowed in the environment's network access?)"
 fi
 if [ -z "$COMFY_CLOUD_API_KEY" ] && [ ! -f "$(dirname "$0")/../.env" ]; then
-  echo "comfy-tools: COMFY_CLOUD_API_KEY is not set; generation won't work until it is (see README)"
+  echo "comfy-tools: COMFY_CLOUD_API_KEY is not set; generation won't work until it is (see AGENTS.md: The API key)"
 fi
 exit 0

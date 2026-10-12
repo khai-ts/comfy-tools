@@ -30,8 +30,9 @@ python brand.py sfx naelnewk "soft bubble pop for a caption appearing" --seconds
 ```
 
 Add `--dry-run` to see the exact `image.py` / `audio.py` command. Any other option is passed through.
-Outputs go to `out/brand/<brand>/` (gitignored). Copy the keepers into a tracked folder such as
-`assets/<brand>/` and commit them.
+Takes go to `out/brand/<brand>/` (scratch, gitignored). `python brand.py save <files> --brand <b> --format <f>
+--title "<name>"` copies the keepers, cropped to the channel size, into `creations/<brand>/<date>_<name>/`.
+`python brand.py doctor` checks the setup in plain words.
 
 ## Rules that apply to both brands
 

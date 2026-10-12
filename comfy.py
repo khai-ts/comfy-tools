@@ -36,7 +36,7 @@ def api_key():
         except OSError:
             key = None
     if not key:
-        sys.exit("COMFY_CLOUD_API_KEY is not set (see README: API key)")
+        sys.exit("COMFY_CLOUD_API_KEY is not set (see docs/technical.md: Keeping the API key safe)")
     return key.strip()
 
 
