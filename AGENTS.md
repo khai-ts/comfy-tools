@@ -108,9 +108,48 @@ The same scene in square for Instagram?"
   not built yet (social-post points, the game, referrals, birthdays, subscriptions) without checking.
 - **Marketplace claims** ("#1 fast-selling", "10,000+ sold") only when the person confirms they're current
   and true.
-- If a brand fact is missing (see the TODOs in each `BRAND.md`, such as membership tiers), ask instead of
-  inventing it. Offer to add the answer to the brand kit.
+- If a brand fact is missing (see the TODOs in each `BRAND.md`), ask instead of inventing it, then record the
+  answer (see "Keeping the brand kit and research up to date").
 - Write text files with LF line endings.
+
+## Keeping the brand kit and research up to date
+
+The brand kit is meant to grow through these conversations. **You are expected to update it yourself**, without
+being asked each time, whenever you learn something worth keeping. Tell the person in one plain line ("I've
+added that to the brand kit"), not with file names.
+
+**What to record, and where:**
+
+| What you learned | Where it goes |
+|---|---|
+| A brand fact from the person: new product, price, claim, tagline, campaign, membership change, answer to a TODO | `brand/<slug>/BRAND.md` (or `MEMBERSHIP.md`); remove the TODO once it's answered |
+| A new look, scene, music style or format the person liked | add a preset to `brand/<slug>/brand.json` (`image.scenes`, `music`, or `brand/formats.json`) and a line in `BRAND.md` |
+| A change to the overall direction (style, voice, colours) | edit `BRAND.md` and `brand.json`. Keep the old version in a "Previously" note if it's still in use somewhere |
+| New official assets the person gives you (logo files, packshots, photos) | `brand/<slug>/logo/`, `products/` or `reference/`, with clear lowercase-hyphenated names |
+| Web or market research: competitors, trends, audience, hashtags, platform specs, festivals, regulations | a note in `research/` (see `research/README.md`), plus a summary of what it means for the brand in `BRAND.md` or `brand/IDEAS.md` |
+| A good content idea that came up | `brand/IDEAS.md` |
+
+Every change also gets a dated line in `brand/CHANGELOG.md`: what changed, why, and the source (the person,
+a link, or "agent proposal, approved").
+
+**How:**
+- Do research whenever it would make the work better, for example before a campaign, for trends, or on
+  competitors. Use web search if you have it. Save the findings with source links and the date you looked.
+  Summarise in your own words. Don't copy other brands' text or download their images into the repo: link
+  to them instead.
+- **Confirm before recording** product facts, prices, claims, certifications and membership numbers. These
+  must come from the person or an official source. Your own creative directions go in as proposals until the
+  person approves them.
+- Keep the kit tidy. Update the existing sections instead of piling up notes, and don't delete assets. Mark
+  them as superseded instead.
+- After editing `brand.json` or `formats.json`, run `python brand.py list` to make sure they still load.
+- **Share the update so the team gets it:**
+  - *On a computer:* commit on a new branch named `brand-update/<yyyy-mm-dd>-<topic>`, push it, and open a pull
+    request to `main` with a plain summary. If you can't push (no GitHub access), keep the commit and tell
+    them: "I saved the update on this computer. Ask IT to give you GitHub access so it can be shared."
+  - *Codex cloud / Claude cloud:* commit, then create the pull request in whatever way the app offers (in Codex,
+    the "Create PR" button: tell the person to click it).
+  - Keep brand-kit updates in their own commits, separate from generated content, so they're easy to review.
 
 ## The API key
 
@@ -151,4 +190,5 @@ in the repo root. `.env` is gitignored.
   `IDEAS.md` (the suggestion bank).
 - `brand.py`: the on-brand front door (`doctor`, `list`, `image`, `music`, `sfx`, `save`, `open`).
 - `image.py`, `audio.py`, `cutout.py`, `sound.py`, `comfy.py`: the underlying tools (see `docs/technical.md`).
+- `research/`: dated research notes with sources. `brand/CHANGELOG.md`: log of brand-kit changes.
 - `out/`: scratch takes (gitignored). `creations/`: saved deliverables. Costs are logged in `out/**/usage.json`.

@@ -17,7 +17,8 @@ Each kit contains:
 - `brand.json`: the same guidelines as data, which `brand.py` uses to style prompts.
 - `logo/`, `products/`, `reference/`, `sub-brands/`: real assets from the brand's websites.
 
-`formats.json` lists the output sizes for each channel.
+`formats.json` lists the output sizes for each channel. `CHANGELOG.md` logs every change to the kits, and
+research behind them lives in [`../research/`](../research/README.md). Agents keep both up to date as they work.
 
 ## Generating on-brand content
 

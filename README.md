@@ -28,6 +28,8 @@ colours, products, photo style and tone of voice.
 - "Write captions and hashtags for this picture."
 - "A LinkedIn banner for Inno Asia about quality and research."
 - "Make the same image square for Instagram."
+- "Research what other magnesium brands in Malaysia post on TikTok."
+- "Our new tagline is ... Please update the branding."
 
 ## Where your files go
 
@@ -35,6 +37,10 @@ Finished files are saved in the **`creations`** folder, sorted by brand and date
 and the helper will open it for you.
 
 ## Good to know
+
+- The helper **keeps the brand kit up to date**. When you tell it something new (a product, a price, a style you
+  like), or it does research, it saves that and sends the update for review. To share updates, your GitHub
+  account needs access to this repo.
 
 - If the helper says "Tell IT to setup the API key for you", forward that to IT. Until then it can still help
   with ideas and captions.
@@ -57,7 +63,8 @@ If the helper says **"Tell IT to setup the API key for you"**, the Comfy Cloud k
   - *Claude Code on the web:* add it as an environment variable.
 - **Internet access (cloud only):** allow `cloud.comfy.org` and `storage.googleapis.com`. Also keep package
   installs (PyPI) allowed.
-- **Repo access:** if this repo is private, the person using it needs access on GitHub.
+- **Repo access:** the person using it needs GitHub access to this repo: read access to use it, and **write access
+  so the helper can send brand-kit updates and research** as pull requests. Review and merge those PRs into `main`.
 - **Brand gaps to fill:** see the TODOs in `brand/naelnewk/BRAND.md` (membership details) and
   `brand/innoasia/BRAND.md` (official font).
 - Technical details: [`docs/technical.md`](docs/technical.md) · brand kits: [`brand/README.md`](brand/README.md)
