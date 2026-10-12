@@ -54,7 +54,7 @@ prompt.
 
 | Need | Approach |
 |---|---|
-| Real product in a lifestyle scene | An image-edit model (e.g. Gemini "Nano Banana", Flux Kontext, GPT Image) with the packshot from `products/` as the reference image, plus the brand style prompt |
+| Real product in a lifestyle scene | **Proven: Nano Banana Pro (Gemini 3 Pro Image) on Comfy Cloud** with the packshots from `naelnewk/products/` as reference images, plus the brand style prompt. This is how the membership pictures were made. Then check the boxes: blur or fix any misspelled fine print or wrong doses. Flux Kontext and GPT Image are alternatives |
 | TikTok / Reels video | Generate a still with `brand.py image ... --format tiktok`, then animate it with an image-to-video model (e.g. Kling, Veo, Seedance) |
 | Voice-over | A text-to-speech partner model (e.g. ElevenLabs), with a script written in the brand voice |
 | Background removal | `cutout.py` locally, or a partner background-removal model |

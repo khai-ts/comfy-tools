@@ -84,6 +84,13 @@ The same scene in square for Instagram?"
   wording, as the brands do. Use real reviews only, never invented ones.
 - Keep the looks apart. Nael & Newk is warm, sunlit and homely. Inno Asia is white, ice-blue and clinical glass.
 - Show Malaysian people, multi-ethnic, including women in hijab where it fits.
+- **The Nael & Newk membership (Rewards) program is not launched yet.** Read `brand/naelnewk/MEMBERSHIP.md`
+  before any membership work. Treat it as launch prep: label drafts "for launch", don't write as if it's
+  live, and remind them to confirm the numbers (300 welcome points, RM1 = 1 point, 100 points = RM5 off,
+  3-month expiry) with the team, because staff can change them. Don't promote extras that are switched off or
+  not built yet (social-post points, the game, referrals, birthdays, subscriptions) without checking.
+- **Marketplace claims** ("#1 fast-selling", "10,000+ sold") only when the person confirms they're current
+  and true.
 - If a brand fact is missing (see the TODOs in each `BRAND.md`, such as membership tiers), ask instead of
   inventing it. Offer to add the answer to the brand kit.
 - Write text files with LF line endings.

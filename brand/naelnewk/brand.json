@@ -3,7 +3,7 @@
   "wordmark": "nael & newk",
   "owner": "Inno Asia Distribution Sdn Bhd",
   "tagline": "Gentle on the stomach, Easy on your routine",
-  "slogans": ["Simple Wellness. Thoughtfully Considered.", "Wellness doesn't need to be complicated."],
+  "slogans": ["Simple Wellness. Thoughtfully Considered.", "Wellness doesn't need to be complicated.", "Now Everyone Can Live Well", "Advance Nutrition"],
   "palette": {
     "cocoa": {"hex": "#5A4848", "use": "primary text, buttons, borders (website foreground)"},
     "cocoa-hover": {"hex": "#685353", "use": "button hover, selected states"},
@@ -14,7 +14,11 @@
     "oat": {"hex": "#C8B197", "use": "photographic warm mid-tone (wood, linen, sunlight)"},
     "paper": {"hex": "#FDFCFA", "use": "off-white page background"},
     "navy": {"hex": "#141F30", "use": "packaging: Vitamin D3+K2 and Magnesium + Zinc boxes"},
-    "gold": {"hex": "#A78848", "use": "packaging accent, premium highlights"}
+    "gold": {"hex": "#A78848", "use": "packaging accent, premium highlights"},
+    "tagline-red": {"hex": "#D82024", "use": "the 'Now Everyone Can Live Well' pill under the logo; promos only, sparingly"},
+    "member-navy": {"hex": "#232B3D", "use": "membership dashboard buttons"},
+    "member-leaf": {"hex": "#8AB925", "use": "membership points / positive"},
+    "member-gold": {"hex": "#D4AE4A", "use": "membership rewards and vouchers"}
   },
   "fonts": {"web": "Inter (400 body, 700 accent)", "logo": "rounded geometric sans, lowercase"},
   "image": {
@@ -25,6 +29,7 @@
       "still-life": "still life on a pale stone or light wood table, glass of water, ceramic bowl, small plant sprig, morning light through sheer curtains",
       "product-backdrop": "empty pale stone tabletop in the foreground with clear space in the centre for a product, softly blurred warm interior behind, sunlight patches",
       "routine": "daily routine moment: morning stretch, evening wind-down, post-workout cool-down or sleep preparation",
+      "membership": "bright clean white tabletop with fresh basil leaves and a gift box tied with a gold satin ribbon, soft daylight, celebratory but calm",
       "texture": "close-up soft texture background: linen fabric, oat-coloured paper or smooth river pebble, lots of negative space"
     }
   },

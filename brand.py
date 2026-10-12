@@ -62,7 +62,7 @@ def show():
         print(f"  music:  {', '.join(b['music'])}")
     print("formats:")
     for k, v in formats().items():
-        print(f"  {k:15} generate {v['generate']:10} deliver {v['deliver']:10} {v['use']}")
+        print(f"  {k:19} generate {v['generate']:10} deliver {v['deliver']:10} {v['use']}")
 
 
 def doctor():
